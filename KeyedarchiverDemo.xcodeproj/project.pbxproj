@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB60E0701CA21DB800B8DA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E06F1CA21DB800B8DA9E /* main.m */; };
+		DB60E0731CA21DB800B8DA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0721CA21DB800B8DA9E /* AppDelegate.m */; };
+		DB60E0761CA21DB800B8DA9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0751CA21DB800B8DA9E /* ViewController.m */; };
+		DB60E0791CA21DB800B8DA9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB60E0771CA21DB800B8DA9E /* Main.storyboard */; };
+		DB60E07B1CA21DB800B8DA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB60E07A1CA21DB800B8DA9E /* Assets.xcassets */; };
+		DB60E07E1CA21DB800B8DA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB60E07C1CA21DB800B8DA9E /* LaunchScreen.storyboard */; };
+		DB60E0891CA21DB800B8DA9E /* KeyedarchiverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0881CA21DB800B8DA9E /* KeyedarchiverDemoTests.m */; };
+		DB60E0941CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0931CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB60E0851CA21DB800B8DA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB60E0631CA21DB800B8DA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB60E06A1CA21DB800B8DA9E;
+			remoteInfo = KeyedarchiverDemo;
+		};
+		DB60E0901CA21DB800B8DA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB60E0631CA21DB800B8DA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB60E06A1CA21DB800B8DA9E;
+			remoteInfo = KeyedarchiverDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB60E06B1CA21DB800B8DA9E /* KeyedarchiverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyedarchiverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB60E06F1CA21DB800B8DA9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB60E0711CA21DB800B8DA9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB60E0721CA21DB800B8DA9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB60E0741CA21DB800B8DA9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB60E0751CA21DB800B8DA9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB60E0781CA21DB800B8DA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB60E07A1CA21DB800B8DA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB60E07D1CA21DB800B8DA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB60E07F1CA21DB800B8DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB60E0841CA21DB800B8DA9E /* KeyedarchiverDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyedarchiverDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB60E0881CA21DB800B8DA9E /* KeyedarchiverDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyedarchiverDemoTests.m; sourceTree = "<group>"; };
+		DB60E08A1CA21DB800B8DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB60E08F1CA21DB800B8DA9E /* KeyedarchiverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyedarchiverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB60E0931CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyedarchiverDemoUITests.m; sourceTree = "<group>"; };
+		DB60E0951CA21DB800B8DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB60E0681CA21DB800B8DA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60E0811CA21DB800B8DA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60E08C1CA21DB800B8DA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB60E0621CA21DB800B8DA9E = {
+			isa = PBXGroup;
+			children = (
+				DB60E06D1CA21DB800B8DA9E /* KeyedarchiverDemo */,
+				DB60E0871CA21DB800B8DA9E /* KeyedarchiverDemoTests */,
+				DB60E0921CA21DB800B8DA9E /* KeyedarchiverDemoUITests */,
+				DB60E06C1CA21DB800B8DA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB60E06C1CA21DB800B8DA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E06B1CA21DB800B8DA9E /* KeyedarchiverDemo.app */,
+				DB60E0841CA21DB800B8DA9E /* KeyedarchiverDemoTests.xctest */,
+				DB60E08F1CA21DB800B8DA9E /* KeyedarchiverDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB60E06D1CA21DB800B8DA9E /* KeyedarchiverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E0711CA21DB800B8DA9E /* AppDelegate.h */,
+				DB60E0721CA21DB800B8DA9E /* AppDelegate.m */,
+				DB60E0741CA21DB800B8DA9E /* ViewController.h */,
+				DB60E0751CA21DB800B8DA9E /* ViewController.m */,
+				DB60E0771CA21DB800B8DA9E /* Main.storyboard */,
+				DB60E07A1CA21DB800B8DA9E /* Assets.xcassets */,
+				DB60E07C1CA21DB800B8DA9E /* LaunchScreen.storyboard */,
+				DB60E07F1CA21DB800B8DA9E /* Info.plist */,
+				DB60E06E1CA21DB800B8DA9E /* Supporting Files */,
+			);
+			path = KeyedarchiverDemo;
+			sourceTree = "<group>";
+		};
+		DB60E06E1CA21DB800B8DA9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E06F1CA21DB800B8DA9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB60E0871CA21DB800B8DA9E /* KeyedarchiverDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E0881CA21DB800B8DA9E /* KeyedarchiverDemoTests.m */,
+				DB60E08A1CA21DB800B8DA9E /* Info.plist */,
+			);
+			path = KeyedarchiverDemoTests;
+			sourceTree = "<group>";
+		};
+		DB60E0921CA21DB800B8DA9E /* KeyedarchiverDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E0931CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m */,
+				DB60E0951CA21DB800B8DA9E /* Info.plist */,
+			);
+			path = KeyedarchiverDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB60E06A1CA21DB800B8DA9E /* KeyedarchiverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB60E0981CA21DB800B8DA9E /* Build configuration list for PBXNativeTarget "KeyedarchiverDemo" */;
+			buildPhases = (
+				DB60E0671CA21DB800B8DA9E /* Sources */,
+				DB60E0681CA21DB800B8DA9E /* Frameworks */,
+				DB60E0691CA21DB800B8DA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyedarchiverDemo;
+			productName = KeyedarchiverDemo;
+			productReference = DB60E06B1CA21DB800B8DA9E /* KeyedarchiverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB60E0831CA21DB800B8DA9E /* KeyedarchiverDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB60E09B1CA21DB800B8DA9E /* Build configuration list for PBXNativeTarget "KeyedarchiverDemoTests" */;
+			buildPhases = (
+				DB60E0801CA21DB800B8DA9E /* Sources */,
+				DB60E0811CA21DB800B8DA9E /* Frameworks */,
+				DB60E0821CA21DB800B8DA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB60E0861CA21DB800B8DA9E /* PBXTargetDependency */,
+			);
+			name = KeyedarchiverDemoTests;
+			productName = KeyedarchiverDemoTests;
+			productReference = DB60E0841CA21DB800B8DA9E /* KeyedarchiverDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB60E08E1CA21DB800B8DA9E /* KeyedarchiverDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB60E09E1CA21DB800B8DA9E /* Build configuration list for PBXNativeTarget "KeyedarchiverDemoUITests" */;
+			buildPhases = (
+				DB60E08B1CA21DB800B8DA9E /* Sources */,
+				DB60E08C1CA21DB800B8DA9E /* Frameworks */,
+				DB60E08D1CA21DB800B8DA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB60E0911CA21DB800B8DA9E /* PBXTargetDependency */,
+			);
+			name = KeyedarchiverDemoUITests;
+			productName = KeyedarchiverDemoUITests;
+			productReference = DB60E08F1CA21DB800B8DA9E /* KeyedarchiverDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB60E0631CA21DB800B8DA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YueWen;
+				TargetAttributes = {
+					DB60E06A1CA21DB800B8DA9E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DB60E0831CA21DB800B8DA9E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DB60E06A1CA21DB800B8DA9E;
+					};
+					DB60E08E1CA21DB800B8DA9E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DB60E06A1CA21DB800B8DA9E;
+					};
+				};
+			};
+			buildConfigurationList = DB60E0661CA21DB800B8DA9E /* Build configuration list for PBXProject "KeyedarchiverDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB60E0621CA21DB800B8DA9E;
+			productRefGroup = DB60E06C1CA21DB800B8DA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB60E06A1CA21DB800B8DA9E /* KeyedarchiverDemo */,
+				DB60E0831CA21DB800B8DA9E /* KeyedarchiverDemoTests */,
+				DB60E08E1CA21DB800B8DA9E /* KeyedarchiverDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB60E0691CA21DB800B8DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB60E07E1CA21DB800B8DA9E /* LaunchScreen.storyboard in Resources */,
+				DB60E07B1CA21DB800B8DA9E /* Assets.xcassets in Resources */,
+				DB60E0791CA21DB800B8DA9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60E0821CA21DB800B8DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60E08D1CA21DB800B8DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB60E0671CA21DB800B8DA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB60E0761CA21DB800B8DA9E /* ViewController.m in Sources */,
+				DB60E0731CA21DB800B8DA9E /* AppDelegate.m in Sources */,
+				DB60E0701CA21DB800B8DA9E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60E0801CA21DB800B8DA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB60E0891CA21DB800B8DA9E /* KeyedarchiverDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60E08B1CA21DB800B8DA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB60E0941CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB60E0861CA21DB800B8DA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB60E06A1CA21DB800B8DA9E /* KeyedarchiverDemo */;
+			targetProxy = DB60E0851CA21DB800B8DA9E /* PBXContainerItemProxy */;
+		};
+		DB60E0911CA21DB800B8DA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB60E06A1CA21DB800B8DA9E /* KeyedarchiverDemo */;
+			targetProxy = DB60E0901CA21DB800B8DA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB60E0771CA21DB800B8DA9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB60E0781CA21DB800B8DA9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB60E07C1CA21DB800B8DA9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB60E07D1CA21DB800B8DA9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB60E0961CA21DB800B8DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB60E0971CA21DB800B8DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB60E0991CA21DB800B8DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyedarchiverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.KeyedarchiverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB60E09A1CA21DB800B8DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyedarchiverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.KeyedarchiverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB60E09C1CA21DB800B8DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyedarchiverDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.KeyedarchiverDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyedarchiverDemo.app/KeyedarchiverDemo";
+			};
+			name = Debug;
+		};
+		DB60E09D1CA21DB800B8DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyedarchiverDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.KeyedarchiverDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyedarchiverDemo.app/KeyedarchiverDemo";
+			};
+			name = Release;
+		};
+		DB60E09F1CA21DB800B8DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyedarchiverDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.KeyedarchiverDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyedarchiverDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB60E0A01CA21DB800B8DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyedarchiverDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.KeyedarchiverDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyedarchiverDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB60E0661CA21DB800B8DA9E /* Build configuration list for PBXProject "KeyedarchiverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60E0961CA21DB800B8DA9E /* Debug */,
+				DB60E0971CA21DB800B8DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB60E0981CA21DB800B8DA9E /* Build configuration list for PBXNativeTarget "KeyedarchiverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60E0991CA21DB800B8DA9E /* Debug */,
+				DB60E09A1CA21DB800B8DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB60E09B1CA21DB800B8DA9E /* Build configuration list for PBXNativeTarget "KeyedarchiverDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60E09C1CA21DB800B8DA9E /* Debug */,
+				DB60E09D1CA21DB800B8DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB60E09E1CA21DB800B8DA9E /* Build configuration list for PBXNativeTarget "KeyedarchiverDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60E09F1CA21DB800B8DA9E /* Debug */,
+				DB60E0A01CA21DB800B8DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB60E0631CA21DB800B8DA9E /* Project object */;
+}
