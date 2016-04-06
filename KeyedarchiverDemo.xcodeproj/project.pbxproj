@@ -15,6 +15,8 @@
 		DB60E07E1CA21DB800B8DA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB60E07C1CA21DB800B8DA9E /* LaunchScreen.storyboard */; };
 		DB60E0891CA21DB800B8DA9E /* KeyedarchiverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0881CA21DB800B8DA9E /* KeyedarchiverDemoTests.m */; };
 		DB60E0941CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0931CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m */; };
+		DB60E0A61CA21DFC00B8DA9E /* MessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0A51CA21DFC00B8DA9E /* MessageObject.m */; };
+		DB60E0A91CA2200A00B8DA9E /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60E0A81CA2200A00B8DA9E /* FileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		DB60E08F1CA21DB800B8DA9E /* KeyedarchiverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyedarchiverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB60E0931CA21DB800B8DA9E /* KeyedarchiverDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyedarchiverDemoUITests.m; sourceTree = "<group>"; };
 		DB60E0951CA21DB800B8DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB60E0A41CA21DFC00B8DA9E /* MessageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageObject.h; sourceTree = "<group>"; };
+		DB60E0A51CA21DFC00B8DA9E /* MessageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageObject.m; sourceTree = "<group>"; };
+		DB60E0A71CA2200A00B8DA9E /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		DB60E0A81CA2200A00B8DA9E /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		DB60E06D1CA21DB800B8DA9E /* KeyedarchiverDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB60E0A11CA21DF000B8DA9E /* Model */,
 				DB60E0711CA21DB800B8DA9E /* AppDelegate.h */,
 				DB60E0721CA21DB800B8DA9E /* AppDelegate.m */,
 				DB60E0741CA21DB800B8DA9E /* ViewController.h */,
@@ -138,6 +145,33 @@
 				DB60E0951CA21DB800B8DA9E /* Info.plist */,
 			);
 			path = KeyedarchiverDemoUITests;
+			sourceTree = "<group>";
+		};
+		DB60E0A11CA21DF000B8DA9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E0A21CA21DF000B8DA9E /* FileManager */,
+				DB60E0A31CA21DF000B8DA9E /* ModelObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB60E0A21CA21DF000B8DA9E /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E0A71CA2200A00B8DA9E /* FileManager.h */,
+				DB60E0A81CA2200A00B8DA9E /* FileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		DB60E0A31CA21DF000B8DA9E /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				DB60E0A41CA21DFC00B8DA9E /* MessageObject.h */,
+				DB60E0A51CA21DFC00B8DA9E /* MessageObject.m */,
+			);
+			path = ModelObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +306,8 @@
 			files = (
 				DB60E0761CA21DB800B8DA9E /* ViewController.m in Sources */,
 				DB60E0731CA21DB800B8DA9E /* AppDelegate.m in Sources */,
+				DB60E0A61CA21DFC00B8DA9E /* MessageObject.m in Sources */,
+				DB60E0A91CA2200A00B8DA9E /* FileManager.m in Sources */,
 				DB60E0701CA21DB800B8DA9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
